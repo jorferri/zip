@@ -1,5 +1,9 @@
+# Zip files example
+## _Spring integration example to zip and unzip files_
+
 https://www.youtube.com/watch?v=O17OjxBLVrs&t=12s
 
+```sh
 Terminal:
 ~/Downloads$ mkdir test
 ~/Downloads$ cd test/
@@ -42,15 +46,19 @@ Desktop/   Documents/ Downloads/
 ~$ cd Desktop/
 ~/Desktop$ cd ..
 ~$ cp ~/Downloads/test.zip ~/Desktop/in/
+```
 
 Install graalvm:
 https://www.graalvm.org/docs/getting-started/linux/
 
+```sh
 tar -xzf 
+```
 
 Intellij terminal:
+```sh
 mvn -DskipTests -Pnative clean package
+```
 
 setup jdk and maven
-
 go to target directory and run the zip program with ./zip
